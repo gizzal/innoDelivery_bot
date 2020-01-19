@@ -1,0 +1,30 @@
+{
+  "name": "innoDelivery_bot",
+  "version": "1.0.0",
+  "description": "bot for innoDelivery_bot",
+  "main": "server.js",
+  "devDependencies": {
+    "dotenv": "^6.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gizzal/erolaif.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gizzal/erolaif/issues"
+  },
+  "homepage": "https://github.com/gizzal/erolaif#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "fhir": "^4.5.0",
+    "polymer": "^0.5.0",
+    "pug": "^2.0.3",
+    "telegraf": "^3.27.0"
+  }
+}
